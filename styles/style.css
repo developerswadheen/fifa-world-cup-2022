@@ -195,6 +195,7 @@ body {
 
 .social-icons {
     margin-top: 70px;
+    line-height: 60px;
 }
 
 .social-icons a {
@@ -337,6 +338,7 @@ body {
 
 /* upcoming Match page end*/
 
+/* all group page */
 
 .single-group {
     padding: 20px;
@@ -355,3 +357,5 @@ body {
     position: relative;
     bottom: 10px;
 }
+
+/* all group page end */
