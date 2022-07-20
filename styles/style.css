@@ -6,9 +6,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* top banner section */
+/* .................
+        top banner section 
+             ..................*/
 .top-banner {
-    /* border: 1px solid blue; */
     margin: 20px 40px;
     border-radius: 25px;
     background-color: #161616;
@@ -34,6 +35,14 @@ body {
     color: white;
     font-size: 16px;
     margin-bottom: 60px;
+    transition: transform 0.5s;
+    animation: sliding 1s ease-in-out 0.4s infinite alternate;
+    animation-play-state: running
+}
+
+.link-button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 .top-banner-img {
@@ -44,8 +53,25 @@ body {
     width: 100%;
 }
 
-/* top banner section end */
-/* middle section */
+@keyframes sliding {
+    form {
+        background-color: #DD0000;
+
+    }
+
+    to {
+        background-color: #4d2626;
+
+    }
+}
+
+/* .................
+         top banner section end
+           ...................... */
+
+/* .............
+        middle section
+            .............. */
 
 .match-container {
     display: flex;
@@ -124,14 +150,16 @@ body {
     margin-right: 25px;
 }
 
-
-
 /* blogs item styles end */
 
-/* middle section end*/
+/* ...............
+      middle section end
+         ..................*/
 
 
-/* footer section */
+/* ..............
+       footer section
+         ................. */
 
 .footer-section {
     background-color: #161616;
@@ -172,7 +200,9 @@ body {
     border-radius: 10px;
 }
 
-/* footer section end */
+/*.................
+      footer section end 
+         .....................*/
 
 /* Desktop  */
 @media screen and (min-width:993px) {
@@ -183,7 +213,10 @@ body {
 
 }
 
-/* Mobile responsive */
+/* ..................
+        Mobile responsive
+        .................... */
+
 @media screen and (max-width: 688px) {
     .top-banner {
         display: flex;
@@ -197,6 +230,7 @@ body {
     }
 
     .banner-info-title h1 {
+        padding-top: 40px;
         font-size: 40px;
     }
 
@@ -218,15 +252,23 @@ body {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* special btn */
     .view-button {
         display: none;
         text-align: center;
     }
+
+    /* special btn  end*/
 }
 
-/* mobile responsive end */
+/* ........................
+       mobile responsive end
+       ...................*/
 
-/* tablet responsive */
+/*...................
+          tablet responsive 
+                 ................*/
+
 @media screen and (min-width: 689px) and (max-width:992px) {
 
     .banner-info-title h1 {
@@ -269,7 +311,12 @@ body {
 
 }
 
-/* tablet responsive end */
+/* ...................
+       tablet responsive end
+          ..................... */
+
+
+/* upcoming Match page */
 
 .match-schedule {
     padding: 20px;
@@ -280,4 +327,18 @@ body {
 .flag-img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+/* upcoming Match page end*/
+
+.single-group {}
+
+.group-title {
+    text-align: center;
+}
+
+.country-name span {
+    margin-left: 30px;
+    position: relative;
+    bottom: 10px;
 }
