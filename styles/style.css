@@ -17,12 +17,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.top-banner-info {
-    border: 1px solid;
-}
-
 .banner-info-title {
-    border: 2px solid red;
     margin: 10px;
     margin-left: 80px;
 }
