@@ -279,7 +279,8 @@ body {
 @media screen and (min-width: 689px) and (max-width:992px) {
 
     .banner-info-title h1 {
-        font-size: 50px;
+        font-size: 45px;
+        margin-bottom: 0;
     }
 
     .match-container {
