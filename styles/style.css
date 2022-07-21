@@ -27,6 +27,17 @@ body {
     font-size: 65px;
 }
 
+.banner-short-info {
+    width: 500px;
+    overflow: hidden;
+}
+
+.banner-short-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .link-button {
     background-color: #DD0000;
     padding: 10px 25px;
@@ -241,6 +252,11 @@ body {
         font-size: 40px;
     }
 
+    .banner-short-info {
+        width: 250px;
+        margin-left: 50px;
+    }
+
     .match-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -281,6 +297,10 @@ body {
     .banner-info-title h1 {
         font-size: 45px;
         margin-bottom: 0;
+    }
+
+    .banner-short-info {
+        width: 300px;
     }
 
     .match-container {
